@@ -39,7 +39,7 @@ jobs:
 
     - name: Change directory
       run: |
-        cd terraform6
+        cd terraform6/module/
         ls -la
 
     - name: Initialize Terraform
