@@ -8,7 +8,7 @@ variable "public_key"  {
 }
 
 variable "ami" {
-    default: "ami-0ddda618e961f2270"
+    default =  "ami-0ddda618e961f2270"
 }
 
 variable "key_name" {
