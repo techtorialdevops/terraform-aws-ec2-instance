@@ -1,7 +1,7 @@
 module "dev" {
     source = "../"
     region = "us-east-2"
-    key_name_prefix ="tuncay-"
+    key_name_prefix ="nodar-"
 }
 
 output region {
